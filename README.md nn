@@ -1,0 +1,49 @@
+# 🤖 AI-Powered Workflow & Lead Automation Agent
+
+Welcome to my second automation project! This repository contains a fully automated workflow built on **Make.com** (formerly Integromat). The core objective of this project is to demonstrate how modern businesses can leverage AI and automation to eliminate repetitive tasks, optimize client onboarding, and save hours of manual operation every week.
+
+---
+
+## 📑 Project Overview (نبذة عن المشروع)
+
+هذا المشروع عبارة عن وكيل ذكاء اصطناعي ونظام أتمتة متكامل مخصص لإدارة البيانات الواردة بذكاء وتوفير الوقت والجهد على أصحاب الأعمال. يقوم النظام برصد البيانات، معالجتها وتحليلها عبر الذكاء الاصطناعي، ثم اتخاذ إجراءات فورية بناءً على المحتوى.
+
+### 🔄 How the Workflow Works (آلية عمل الووركفلو)
+
+1. **The Trigger (Google Forms):** The system instantly captures new submissions or inquiries from users.
+2. **Data Logging (Google Sheets):** The incoming data is organized and logged into a central spreadsheet to ensure no leads are lost.
+3. **AI Brain (Google Gemini AI):** Gemini analyzes the form inputs, extracts key details, filters useful insights, and drafts a highly professional, context-aware response.
+4. **Action (Gmail):** The system automatically sends out the customized response as an email directly to the user without any human intervention.
+
+---
+
+## 🛠️ Tech Stack & Tools Used (الأدوات المستخدمة)
+
+* **Make.com** (Workflow Architecture & Routing)
+* **Google Forms** (Data Collection)
+* **Google Sheets** (Database & Logging)
+* **Google Gemini AI (1.5 Flash)** (Natural Language Processing & Response Generation)
+* **Gmail Node** (Automated Email Dispatch)
+
+---
+
+## 🚀 Setup & Deployment Instructions (كيفية تشغيل المشروع)
+
+If you want to duplicate this scenario in your own Make.com account, follow these simple steps:
+
+1. **Download the Blueprint:** Download the `blueprint.json` file provided in this repository.
+2. **Import to Make:** Go to your [Make.com](https://www.make.com/) dashboard, create a new scenario, click on the three dots `(...)` at the bottom menu, and select **Import Blueprint**. Upload the downloaded JSON file.
+3. **Configure Connections:** 
+   * Click on each node (Google Forms, Sheets, Gemini, Gmail).
+   * Click **Add Connection** to authenticate your own Google and Gemini API accounts.
+4. **Map the Fields:** Ensure the data fields from Google Forms are mapped properly to Google Sheets and Gemini.
+5. **Activate:** Turn on the scheduling switch to **Run Immediately** (or as preferred).
+
+---
+
+## 🔒 Security Note
+*The `blueprint.json` file shared here is thoroughly cleaned. All sensitive identifiers, personalized `IMTCONN` connection keys, Google Sheet IDs, and personal emails have been replaced with generic placeholders (`YOUR_API_KEY`, `YOUR_SHEET_ID`, etc.) to ensure complete data privacy.*
+
+---
+📩 *Feel free to explore the code and star ⭐ the repository if you find it helpful!*
+
